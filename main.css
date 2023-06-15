@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightyellow;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo {
+    width: 80%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 60px 0 80px;
+    display: flex; 
+    align-items: center;   
+}
+
+.logo p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo img {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.cow-container {
+    width: 80%;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.large-font {
+    font-size: 50px;
+    line-height: 140%;
+}
+
+.first-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 465px;
+}
+
+.cow-image {
+    width: 465px;
+    height: 465px;
+    border-radius: 70px;
+    background: linear-gradient(rgb(242, 225, 36), rgb(225, 10, 45));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cow-image img {
+    width: 255px;
+    height: 255px;
+}
+
+.rules {
+    width: 65%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.second-part h1 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+
+.second-part img {
+    width: 60px;
+}
+
+.second-text {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.second-text h2 {
+    margin-bottom: 15px;
+}
+
+.bug-container {
+    width: 80%;
+    max-width: 1110px;
+    background: linear-gradient(50deg, #FFF6E1, #FFDFDE);
+    border-radius: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    margin-bottom: 120px;
+}
+
+.third-text {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.third-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.bug-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bug-image img {
+    width: 290px;
+    height: 290px;
+}
+
+.points {
+    display: flex;
+}
+
+.rules img {
+    width: 70px;
+    height: 70px;
+}
+
+.rule {
+    padding-left: 30px;
+}
+
+.last {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+button {
+    color: azure;
+    background-color: #FF6861;
+    width: 227px;
+    height: 70px;
+    border: none;
+    border-radius: 70px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 990px) {
+    .logo {
+        justify-content: center;
+    }
+    
+    .first-text {
+        text-align: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .cow-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .third-text {
+        text-align: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .bug-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .logo {
+        padding-bottom: 50px;
+    }
+
+    .cow-image {
+        width: 320px;
+        height: 320px;
+    }
+
+    .cow-image img {
+        width: 175px;
+        height: 175px;
+    }
+
+    .first-text {
+        width: 320px;
+    }
+
+    .bug-container {
+        width: 320px;
+    }
+
+    .third-text {
+        width: 280px;
+    }
+
+    .bug-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .points {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .rule {
+        text-align: center;
+    }
+}
